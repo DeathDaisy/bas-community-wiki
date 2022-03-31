@@ -96,3 +96,26 @@ This will add them to the base game tips without overwriting them or other modde
         }
     }
 ```
+
+### Extension method to get the mod path of an object
+
+```csharp
+public static string GetModPath( this Object thisObject ) {
+    Type type = thisObject.GetType();
+    string assemblyFullName = type.Assembly.GetName().Name;
+    return FileManager.GetFullPath(FileManager.Type.JSONCatalog,
+        FileManager.Source.Mods, assemblyFullName);
+}
+```
+
+### Extension method to get the manifest.json file for a Type (assuming the type is from a mod dll)
+
+```csharp
+public static string GetManifest(Type type) {
+    string assemblyFullName = type.Assembly.GetName().Name;
+    string manifestName = assemblyFullName + "\\manifest.json";
+    string manifest = File.ReadAllText(FileManager.GetFullPath(FileManager.Type.JSONCatalog,
+        FileManager.Source.Mods, manifestName));
+    return manifest;
+}
+```
