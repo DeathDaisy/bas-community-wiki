@@ -1,6 +1,6 @@
-# How to install mods
+# How to install mods for PCVR
 
-Download your mod via [Nexus Mods](https://www.nexusmods.com/bladeandsorcery). If you are installing mods manually, choose "manual download". If you are using Vortex, choose "mod manager download".
+Download your mod via [Nexus Mods PCVR](https://www.nexusmods.com/bladeandsorcery). If you are installing mods manually, choose "manual download". If you are using Vortex, choose "mod manager download".
 
 ## MANUAL INSTALL
 
