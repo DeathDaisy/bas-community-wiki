@@ -3,6 +3,7 @@ lang: en
 description: Blade and Sorcery Community Wiki
 repository: Wully616/bas-community-wiki
 remote_theme: Wully616/jekyll-rtd-theme
+baseurl: /bas-community-wiki
 
 readme_index:
   with_frontmatter: true
