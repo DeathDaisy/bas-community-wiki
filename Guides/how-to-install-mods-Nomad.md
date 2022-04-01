@@ -1,5 +1,13 @@
 # How to install mods for Nomad
 
+# Short Guide
+
+1. Download the mod from Nexus mods
+2. Extract the mod folder
+3. Plug your Quest 2 into your PC
+4. Drag and drop mod folder into `This PC\Quest 2\Internal shared storage\Android\data\com.Warpfrog.BladeAndSorcery\files\Mods`
+
+# Full Guide
 
 ## Download the mod
 Download your mod via [Nexus Mods Nomad](https://www.nexusmods.com/bladeandsorcerynomad).
