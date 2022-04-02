@@ -59,12 +59,29 @@ Switch it on by pressing the power button on the right side.
 ### Plug the Quest 2 into the PC
 Plug in the USB C cable into the Quest 2 and into your PC or Laptop you downloaded the mod onto.
 
+```tip
+The cable which comes with the Quest 2 will work perfectly.
+
+You must use a cable that is for charging and data, if you use a charging only cable it won't work.
+```
+
 ### Put on the Quest 2 headset
-If this is the first time you have plugged your Quest 2 into this PC or Laptop, 
-there will be a notification asking you to `Allow access to data`. 
+There may be a notification asking you to `Allow access to data`. 
+
 This will let your PC or Laptop access your Quest 2's files.
 
 Select **Allow**
+
+```warning
+Do not click **Deny** or **Don't show again** 
+```
+
+```tip
+If your Quest 2 is in Developer mode, you will not be able to access your Quest 2 internal storage this way. 
+In Developer mode you can only access the internal storage over ADB. You will need to use **Side Quest** to transfer the files.
+
+You must disable Developer mode, reboot your Quest 2 and plug in your cable again and it should prompt you to `Allow access to data`.
+```
 
 ![mod folder](../assets/mod-install-nomad/allow-access.JPG)
 
