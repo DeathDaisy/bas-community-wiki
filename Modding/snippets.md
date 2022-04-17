@@ -120,7 +120,7 @@ public static string GetManifest(Type type) {
 }
 ```
 
-### How to access the items in the players holder
+### How to access the items in the players holders
 
 ```csharp
 foreach(Holder holder in Player.local.creature.equipment.holders)
