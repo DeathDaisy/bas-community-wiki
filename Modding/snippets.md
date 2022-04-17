@@ -119,3 +119,12 @@ public static string GetManifest(Type type) {
     return manifest;
 }
 ```
+
+### How to access the items in the players holder
+
+```csharp
+foreach(Holder holder in Player.local.creature.equipment.holders)
+{
+    holder.items[0]
+}
+```
