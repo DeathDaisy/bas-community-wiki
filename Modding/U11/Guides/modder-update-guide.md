@@ -34,7 +34,7 @@ and this regex to find and replace to fix your json category
 
 find : `^\s*"categoryPath": \[\s*("[a-zA-Z0-9 ]+")\s*]`
 
-replace: `  "category": $1`
+replace: `"category": $1`
 
 Make sure you check `Regular expresssion` AND `. matches newline`
 you can do `Find in files` in notepad++ to do it for all the jsons
