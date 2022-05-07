@@ -5,9 +5,11 @@ For more information on why this is useful, read [1k update calls](https://blog.
 
 
 - `ThunderBehaviour` is available as a baseclass to use, you can use this instead of your own `MonoBehaviours` by doing the following
-    - instead of `void Update()` use `protected internal override void ManagedUpdate()`
-    - instead of `void LateUpdate()` use `protected internal override void ManagedLateUpdate()`
-    - instead of `void FixedUpdate()` use `protected internal override void ManagedFixedUpdate()`
+    - instead of `void Update()` use `protected override void ManagedUpdate()`
+    - instead of `void LateUpdate()` use `protected override void ManagedLateUpdate()`
+    - instead of `void FixedUpdate()` use `protected override void ManagedFixedUpdate()`
+    - instead of `void OnEnable()` use `protected override void ManagedOnEnable()`
+    - instead of `void OnDisable()` use `protected override void ManagedOnDisable()`
     - Implement `protected override ManagedLoops ManagedLoops => ManagedLoops.Update | ManagedLoops.LateUpdate | ManagedLoops.FixedUpdate`
         - Specify one or more of the `ManagedLoops` enum to indicate to the UpdateManager which loops you want to run on your ThunderBehaviour
 
@@ -18,6 +20,14 @@ For more information on why this is useful, read [1k update calls](https://blog.
 using ThunderRoad;
 public class ExampleUpdate : ThunderBehaviour
 {
+    //Still use awake as normal
+    void Awake(){}
+
+    //Use the ManagedOnEnable and ManagedOnDisable instead of the unity ones
+    protected override void ManagedOnEnable() {}
+
+    protected override void ManagedOnDisable() {}
+
     //This tells the update manager to only call your ManagedUpdate() function
     protected override ManagedLoops ManagedLoops => ManagedLoops.Update;
 
