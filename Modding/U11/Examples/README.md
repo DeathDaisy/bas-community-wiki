@@ -1,6 +1,3 @@
----
-order: 1
----
-# Modding
+# Examples
 
 source: `{{ page.path }}`
