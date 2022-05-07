@@ -27,29 +27,29 @@ Downloading your mod will give you an archived file. You need to extract it firs
 
 #### Windows double click to open
 <video autoplay="autoplay" loop="loop">
-  <source src="{{ site.url }}/assets/mod-install-nomad/doubleclick-extract.webm" type="video/webm">
+  <source src="{{ site.github.url }}/assets/mod-install-nomad/doubleclick-extract.webm" type="video/webm">
 </video>
 
 #### Windows right click > extract
 <video autoplay="autoplay" loop="loop">
-  <source src="{{ site.url }}/assets/mod-install-nomad/winzip-extract.webm" type="video/webm">
+  <source src="{{ site.github.url }}/assets/mod-install-nomad/winzip-extract.webm" type="video/webm">
 </video>
 
 #### 7zip right click > extract
 <video autoplay="autoplay" loop="loop">
-  <source src="{{ site.url }}/assets/mod-install-nomad/7zip-extract.webm" type="video/webm">
+  <source src="{{ site.github.url }}/assets/mod-install-nomad/7zip-extract.webm" type="video/webm">
 </video>
 
 ### Double check you have the correct folder.
 The mod folder you need to copy to the **Quest 2** will have a `manifest` or `manifest.json` file inside it such as `CoolMod/manifest.json`. 
 
-![manifest location]({{ site.url }}/assets/mod-install-nomad/manifest.JPG)
+![manifest location]({{ site.github.url }}/assets/mod-install-nomad/manifest.JPG)
 
 ```warning
 If you have a folder that looks like `CoolMod-865-1-0-164277211` then that folder is incorrect, you want the `CoolMod` folder inside it, not the one with lots of numbers on it.
 ```
 
-![mod folder]({{ site.url }}/assets/mod-install-nomad/mod.JPG)
+![mod folder]({{ site.github.url }}/assets/mod-install-nomad/mod.JPG)
 
 ## Install the Mod on the Quest 2 (Windows)
 
@@ -83,7 +83,7 @@ In Developer mode you can only access the internal storage over ADB. You will ne
 You must disable Developer mode, reboot your Quest 2 and plug in your cable again and it should prompt you to `Allow access to data`.
 ```
 
-![mod folder]({{ site.url }}/assets/mod-install-nomad/allow-access.JPG)
+![mod folder]({{ site.github.url }}/assets/mod-install-nomad/allow-access.JPG)
 
 ### Take off your Quest 2 headset
 You dont need to wear the headset for the next part.
@@ -98,7 +98,7 @@ You can do this many ways in Windows.
 
 In `This PC` check you have the `Quest 2` drive appearing.
 
-![mod folder]({{ site.url }}/assets/mod-install-nomad/quest2-drive.JPG)
+![mod folder]({{ site.github.url }}/assets/mod-install-nomad/quest2-drive.JPG)
 
 
 ### Go to the Blade and Sorcery: Nomad mod folder
@@ -130,7 +130,7 @@ You can get to the folder quickly by copying this path:
 
 and pasting it into the address bar in the File explorer window and pressing enter or clicking the arrow
 <video autoplay="autoplay" loop="loop">
-  <source src="{{ site.url }}/assets/mod-install-nomad/paste-path.webm" type="video/webm">
+  <source src="{{ site.github.url }}/assets/mod-install-nomad/paste-path.webm" type="video/webm">
 </video>
 
 ### Copy the mod folder into your Blade and Sorcery: Nomad Mods folder
@@ -138,7 +138,7 @@ Get the mod folder we extracted earlier, ensuring its the one with the `manifest
 
 Simply drag and drop it into the Nomad `Mods` folder.
 <video autoplay="autoplay" loop="loop">
-  <source src="{{ site.url }}/assets/mod-install-nomad/dragdrop.webm" type="video/webm">
+  <source src="{{ site.github.url }}/assets/mod-install-nomad/dragdrop.webm" type="video/webm">
 </video>
 
 
