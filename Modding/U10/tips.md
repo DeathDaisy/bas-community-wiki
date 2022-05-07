@@ -27,16 +27,16 @@ public class MyLevelModule : LevelModule
 Create a second `HolderPoint` (Transform) like in the pictures below.
 Then add an additional `HolderPoint` on the item script named **HolderRackTopAnchor** for the weapon rack and **HolderRackTopAnchorBow** for the bow rack and reference your new `HolderPoint`.
 
-![]({{ site.url }}/assets/tips/sword_on_rack.jpg)
-![]({{ site.url }}/assets/tips/bow_on_rack.jpg)
-![]({{ site.url }}/assets/tips/sword_holderpoint_script.PNG)
-![]({{ site.url }}/assets/tips/bow_holderpoint_script.PNG)
+![]({{ site.github.url }}/assets/tips/sword_on_rack.jpg)
+![]({{ site.github.url }}/assets/tips/bow_on_rack.jpg)
+![]({{ site.github.url }}/assets/tips/sword_holderpoint_script.PNG)
+![]({{ site.github.url }}/assets/tips/bow_holderpoint_script.PNG)
 
 ## How to create an audio container
 
 
 <video autoplay="autoplay" loop="loop">
-  <source src="{{ site.url }}/assets/tips/create-audio-container.mp4" type="video/mp4">
+  <source src="{{ site.github.url }}/assets/tips/create-audio-container.mp4" type="video/mp4">
 </video>
 
 ## Use regions in C# code to collapse regions of code together
@@ -53,6 +53,6 @@ Then add an additional `HolderPoint` on the item script named **HolderRackTopAnc
 ```
 
 <video autoplay="autoplay" loop="loop">
-  <source src="{{ site.url }}/assets/tips/csharp-regions.mp4" type="video/mp4">
+  <source src="{{ site.github.url }}/assets/tips/csharp-regions.mp4" type="video/mp4">
 </video>
 

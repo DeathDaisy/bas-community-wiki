@@ -40,6 +40,6 @@ Make sure you check `Regular expresssion` AND `. matches newline`
 you can do `Find in files` in notepad++ to do it for all the jsons
 
 <video autoplay="autoplay" loop="loop">
-  <source src="{{ site.url }}/assets/tips/category-regex.mp4" type="video/mp4">
+  <source src="{{ site.github.url }}/assets/tips/category-regex.mp4" type="video/mp4">
 </video>
 
