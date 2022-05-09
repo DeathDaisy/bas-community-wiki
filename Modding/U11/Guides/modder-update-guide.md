@@ -43,3 +43,19 @@ you can do `Find in files` in notepad++ to do it for all the jsons
   <source src="{{ site.github.url }}/assets/tips/category-regex.mp4" type="video/mp4">
 </video>
 
+## C# Changes
+
+### "AlternateUse"
+
+if you use a `HeldActionEvent` or `TouchActionEvent` for an item that used the action `AlternateUseStart` or `AlternateUseStop`, It has been renamed to `SecondaryUseStart` and `SecondaryUseStop` respectively. similarly, `controlHand` now uses the bool `secondaryUsePressed`.
+
+### Saved Values
+
+Saved Values has been removed and replaced with `CustomData`, which accepts any type. Functions include:
+```csharp
+public bool HasCustomData<T>()
+public bool TryGetCustomData<T>(out T customData)
+public void AddCustomData<T>(T customData)
+public void RemoveCustomData<T>()
+```
+The most obvious usecase is to create a Save Class which can house all the variables you'd like an item to maintain over loads.
