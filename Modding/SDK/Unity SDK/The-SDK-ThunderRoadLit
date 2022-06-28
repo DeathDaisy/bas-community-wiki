@@ -1,3 +1,11 @@
 # The ThunderRoad/Lit Shader
 ## Texture Maps
-The ThunderRoad/Lit shader uses different texture maps than Unity's built-in Universal Rendering Pipeline(URP) shader. The Base Color and the Normal Map are the same, but the MOES is different. MOES stands for Metallic Occlusion Emissive Smoothness. What it does is map those parameters into separate color channels in one single image; Red Green Blue Alpha(RGBA) respectively. This saves video memory compared to having each as a separate image which is the case in the URP shader. Think of the MOES texture as four separate grayscale channels rather than the combined color image.
+The ThunderRoad/Lit shader uses different texture maps than Unity's built-in Universal Rendering Pipeline(URP) shader. The Base Color and the Normal Map are the same, but the MOES is different. 
+### Base Color 
+
+### Normal Map
+
+### MOES
+MOES stands for Metallic(M) Occlusion(O) Emissive(E) Smoothness(S). What it does is map those parameters into separate color channels in one single image; Red Green Blue Alpha(RGBA) respectively. 
+This saves video memory compared to having each as a separate image which is the case in the URP shader. Think of the MOES texture as four separate grayscale channels rather than the combined color image.
+
